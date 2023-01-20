@@ -1,0 +1,10 @@
+.places {
+    box-sizing: border-box;
+    padding-bottom: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        padding-bottom: 0;
+    }
+}

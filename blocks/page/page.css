@@ -1,0 +1,30 @@
+.page {
+    box-sizing: border-box;
+    font-family: 'Inter', 'Arial', sans-serif;
+    background-color: #2A2C2F;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    padding: 16px 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .page {
+        min-width: 768px;
+        padding-top: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page {
+        min-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        min-width: 1280px;
+    }
+}

@@ -1,0 +1,12 @@
+.header__lang {
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(0 0 0 0);
+}
+
+.header__lang:checked + .header__lang_visible {
+    text-decoration: underline;
+}

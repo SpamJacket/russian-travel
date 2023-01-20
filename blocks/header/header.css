@@ -1,0 +1,24 @@
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    min-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        min-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        min-width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        min-width: 1184px;
+    }
+}
