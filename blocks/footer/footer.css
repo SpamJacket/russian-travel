@@ -3,28 +3,29 @@
     display: flex;
     flex-direction: column;
     row-gap: 48px;
-    padding: 0 16px;
     width: 100%;
-    max-width: 368px;
+    max-width: 1184px;
+    padding: 0 16px 24px;
+    justify-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
+        justify-self: center;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0;
-        max-width: 720px;
+        padding: 0 24px 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .footer {
-        max-width: 928px;
+        padding: 0 48px 24px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .footer {
-        max-width: 1184px;
+        padding: 0 0 24px;
     }
 }

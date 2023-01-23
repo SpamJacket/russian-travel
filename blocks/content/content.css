@@ -1,17 +1,15 @@
 .content {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    row-gap: 64px;
     padding: 48px 0 64px;
+    display: grid;
+    justify-items: center;
+    row-gap: 64px;
 }
 
 @media screen and (min-width: 768px) {
     .content {
-        padding-bottom: 88px;
+        padding: 48px 0 88px;
         row-gap: 88px;
     }
 }
@@ -23,8 +21,8 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
     .content {
-        padding: 56px 0 92px;
+        padding-top: 56px;
     }
 }

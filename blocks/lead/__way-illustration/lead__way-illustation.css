@@ -1,3 +1,11 @@
 .lead__way-illustration {
+    display: block;
     width: 100%;
+    max-width: 928px;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__way-illustration {
+        max-width: 984px;
+    }
 }

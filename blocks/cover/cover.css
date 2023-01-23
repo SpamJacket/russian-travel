@@ -1,24 +1,5 @@
 .cover {
     box-sizing: border-box;
-    position: relative;
     width: 100%;
-    max-width: 1024px;
-    padding-bottom: 62.5%;
-    background-image: url("../../images/cover-trains.jpg");
-    background-size: cover;
-    background-color: transparent;
-}
-
-@media screen and (min-width: 1024px) {
-    .cover {
-        padding: 0;
-        height: 640px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover {
-        max-width: 1184px;
-        height: 740px;
-    }
+    max-width: 1184px;
 }

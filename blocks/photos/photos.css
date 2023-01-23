@@ -1,16 +1,22 @@
 .photos {
     box-sizing: border-box;
-    padding: 0 16px;
+    padding: 0 calc(16/320*100%);
 }
 
 @media screen and (min-width: 768px) {
     .photos {
-        padding: 0 24px;
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .photos {
-        padding: 0 48px;
+        padding: 0 calc(48/1024*100%);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photos {
+        padding: 0;
     }
 }

@@ -1,4 +1,5 @@
 .places__main-text {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     row-gap: 25px;
@@ -7,12 +8,19 @@
 
 @media screen and (min-width: 768px) {
     .places__main-text {
-        padding: 0;
+        padding: 0 24px 0 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places__main-text {
         row-gap: 26px;
+        padding: 0 48px 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__main-text {
+        padding: 0;
     }
 }
