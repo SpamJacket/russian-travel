@@ -4,6 +4,11 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding-bottom: calc(97/320*100%);
 }
 
 @media screen and (min-width: 768px) {
@@ -11,5 +16,18 @@
         max-width: 560px;
         font-size: 72px;
         line-height: 76px;
+        padding-bottom: calc(213/768*100%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        padding-bottom: calc(293/1024*100%);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        padding-bottom: 343px;
     }
 }

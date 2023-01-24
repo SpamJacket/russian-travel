@@ -1,13 +1,12 @@
 .cover__background {
+    min-height: 200px;
     box-sizing: border-box;
+    color: white;
+    text-decoration: none;
     position: relative;
-    display: block;
+    display: flex;
+    text-align: center;
     padding-bottom: calc(200/320*100%);
-    background-image: url("../../../images/cover-trains.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
 }
 
 .cover__background::before {
@@ -18,7 +17,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: .3;
 }
 

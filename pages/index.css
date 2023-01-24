@@ -1,4 +1,4 @@
-@import url("../vendor/normolize.css");
+@import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 
 @import url("../blocks/page/page.css");
@@ -7,15 +7,15 @@
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__langs/header__langs.css");
 @import url("../blocks/header/__lang/header__lang.css");
-@import url("../blocks/header/__lang/_visible/header__lang_visible.css");
+@import url("../blocks/header/__lang/_active/header__lang_active.css");
 
 @import url("../blocks/content/content.css");
 
 @import url("../blocks/lead/lead.css");
-@import url("../blocks/lead/__heading/lead__heading.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__way-illustration/lead__way-illustation.css");
+@import url("../blocks/lead/__image/lead__image.css");
 @import url("../blocks/lead/__caption/lead__caption.css");
 
 @import url("../blocks/intro/intro.css");
@@ -23,7 +23,6 @@
 @import url("../blocks/intro/__description/intro__description.css");
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__list-item/intro__list-item.css");
-@import url("../blocks/intro/__list-key/intro__list-key.css");
 @import url("../blocks/intro/__list-value/intro__list-value.css");
 
 @import url("../blocks/photos/photos.css");
@@ -43,7 +42,6 @@
 
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__background/cover__background.css");
-@import url("../blocks/cover/__heading/cover__heading.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 

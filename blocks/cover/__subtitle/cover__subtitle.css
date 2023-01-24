@@ -1,9 +1,15 @@
 .cover__subtitle {
     margin: 0;
     max-width: 288px;
+    width: 100%;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: calc(119/320*100%);
 }
 
 @media screen and (min-width: 768px) {
@@ -11,5 +17,18 @@
         max-width: 360px;
         font-size: 18px;
         line-height: 22px;
+        padding-top: calc(299/768*100%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__subtitle {
+        padding-top: calc(379/1024*100%);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__subtitle {
+        padding-top: 429px;
     }
 }

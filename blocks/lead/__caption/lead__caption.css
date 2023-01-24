@@ -6,7 +6,6 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     padding-left: 16px;
-    align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
@@ -17,15 +16,6 @@
 
 @media screen and (min-width: 1024px) {
     .lead__caption {
-        padding: 0;
-        width: 100%;
-        max-width: 928px;
-        align-self: center;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .lead__caption {
-        max-width: 984px;
+        padding-left: 0;
     }
 }

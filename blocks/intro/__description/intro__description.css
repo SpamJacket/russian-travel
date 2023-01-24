@@ -1,13 +1,26 @@
 .intro__description {
     margin: 0;
+    max-width: 720px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    padding-bottom: 34px;
+    padding: 0 16px 34px;
 }
 
 @media screen and (min-width: 768px) {
     .intro__description {
-        padding-bottom: 33px;
+        padding: 0 0 33px 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__description {
+        max-width: 690px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__description {
+        padding-left: 0;
     }
 }

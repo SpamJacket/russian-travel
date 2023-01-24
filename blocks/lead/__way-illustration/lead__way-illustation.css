@@ -1,6 +1,6 @@
 .lead__way-illustration {
-    display: block;
-    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
     max-width: 928px;
 }
 
