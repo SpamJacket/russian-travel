@@ -1,5 +1,5 @@
 .cover__background {
-    min-height: 200px;
+    min-height: calc(100vw * 0.622);
     height: 100%;
     box-sizing: border-box;
     color: white;
@@ -32,19 +32,12 @@
 
 @media screen and (min-width: 768px) {
     .cover__background {
-        min-height: 480px;
         row-gap: 32px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1184px) {
     .cover__background {
-        min-height: 640px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__background {
-        min-height: 740px;
+        min-height: calc(1184px * 0.625);
     }
 }
