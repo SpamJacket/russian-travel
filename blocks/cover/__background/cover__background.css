@@ -1,12 +1,16 @@
 .cover__background {
     min-height: 200px;
+    height: 100%;
     box-sizing: border-box;
     color: white;
     text-decoration: none;
     position: relative;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
     text-align: center;
-    padding-bottom: calc(200/320*100%);
 }
 
 .cover__background::before {
@@ -19,8 +23,28 @@
     left: 0;
     background-color: #2A2C2F;
     opacity: .3;
+    z-index: 1;
 }
 
 .cover__background:hover::before {
     opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+        row-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__background {
+        min-height: 740px;
+    }
 }
